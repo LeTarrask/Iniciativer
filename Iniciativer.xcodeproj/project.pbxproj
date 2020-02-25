@@ -15,6 +15,7 @@
 		792C125A23C7A1FA00C59F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792C125823C7A1FA00C59F01 /* LaunchScreen.storyboard */; };
 		792C126523C7A1FA00C59F01 /* IniciativerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C126423C7A1FA00C59F01 /* IniciativerTests.swift */; };
 		792C127023C7A1FA00C59F01 /* IniciativerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C126F23C7A1FA00C59F01 /* IniciativerUITests.swift */; };
+		792C127E23C7A7F100C59F01 /* AddCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C127D23C7A7F100C59F01 /* AddCharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		792C126B23C7A1FA00C59F01 /* IniciativerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IniciativerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792C126F23C7A1FA00C59F01 /* IniciativerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciativerUITests.swift; sourceTree = "<group>"; };
 		792C127123C7A1FA00C59F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792C127D23C7A7F100C59F01 /* AddCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				792C124D23C7A1F400C59F01 /* AppDelegate.swift */,
 				792C124F23C7A1F400C59F01 /* SceneDelegate.swift */,
 				792C125123C7A1F500C59F01 /* ContentView.swift */,
+				792C127D23C7A7F100C59F01 /* AddCharacterView.swift */,
 				792C125323C7A1FA00C59F01 /* Assets.xcassets */,
 				792C125823C7A1FA00C59F01 /* LaunchScreen.storyboard */,
 				792C125B23C7A1FA00C59F01 /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				792C124E23C7A1F400C59F01 /* AppDelegate.swift in Sources */,
 				792C125023C7A1F400C59F01 /* SceneDelegate.swift in Sources */,
+				792C127E23C7A7F100C59F01 /* AddCharacterView.swift in Sources */,
 				792C125223C7A1F500C59F01 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
