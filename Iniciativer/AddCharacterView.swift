@@ -41,7 +41,7 @@ struct AddCharacterView: View {
         .navigationBarItems(trailing:
             Button("Save") {
                 if let finalInitiative = Int(self.initiative) {
-                    let fighter = Character(name: self.name, initiative: finalInitiative)
+                    let fighter = Character(name: self.name, initiative: finalInitiative, type: self.type)
                     self.party.combatants.append(fighter)
                     self.presentationMode.wrappedValue.dismiss()
                 }
